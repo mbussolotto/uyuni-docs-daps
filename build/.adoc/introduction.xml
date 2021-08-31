@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<?asciidoc-toc?><?asciidoc-numbered?><set xmlns="http://docbook.org/ns/docbook" xmlns:d="http://docbook.org/ns/docbook" version="5.0" xml:lang="en">
+<info>
+<title>SUSE Manager Documentation</title>
+<date>2021-08-30</date>
+</info>
+<chapter xml:id="id-what-is-suse-manager">
+<title>What is SUSE Manager?</title>
+<simpara>SUSE Manager is a solution for organizations that require robust control over maintenance and package deployment on their servers.
+SUSE Manager enables you to manage large sets of Linux systems and keep them up-to-date, with automated software management, asset management, and system provisioning.
+SUSE Manager allows you to maintain a high level of security while effectively managing system life-cycle requirements.</simpara>
+<simpara>SUSE Manager uses Salt to provide event-driven configuration and management control.
+The Salt-master orchestrates tens of thousands of Salt clients (SUSE Manager Clients) using remote execution.</simpara>
+<simpara>SUSE Manager offers seamless management of SUSE Linux Enterprise, openSUSE, Red Hat Enterprise Linux, CentOS, Oracle Linux, Ubuntu, Debian, Amazon Linux, and Alma Linux client systems.
+They can be on-premise, or on public cloud, private cloud, hybrid cloud or even multi-cloud environments.</simpara>
+<important>
+<title>Accessibility</title>
+<simpara>If you cannot use the SUSE Manager Web UI, almost all functionality (with the exception of virtualization tasks) is available from the command prompt.
+All command line tools can be used with assistive technology tools.
+Text readers <literal>orca</literal> and <literal>espeak</literal> can be enabled in the Desktop Applications Module.
+Speech recognition <literal>mycroft-core</literal> and <literal>sphinx</literal> are available in PackageHub.
+Additionally, you can interact with SUSE Manager using the XML-RPC API.</simpara>
+<itemizedlist>
+<listitem>
+<simpara>For more information about <literal role="command">spacecmd</literal>, see <link xmlns:xl="http://www.w3.org/1999/xlink" xl:href="reference:spacecmd-intro.xml">reference:spacecmd-intro.xml</link>.</simpara>
+</listitem>
+<listitem>
+<simpara>For more information about other command line tools, see <link xmlns:xl="http://www.w3.org/1999/xlink" xl:href="reference:command-line-tools.xml">reference:command-line-tools.xml</link>.</simpara>
+</listitem>
+<listitem>
+<simpara>For the latest information about all command line tools, see the release notes available from <link xmlns:xl="http://www.w3.org/1999/xlink" xl:href="https://www.suse.com/releasenotes/">https://www.suse.com/releasenotes/</link>.</simpara>
+</listitem>
+</itemizedlist>
+</important>
+</chapter>
+</set>

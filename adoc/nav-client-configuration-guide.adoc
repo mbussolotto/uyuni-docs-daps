@@ -1,0 +1,153 @@
+// Client Configuration Guide Antora Navivation List
+// PDF Client Configuration Guide
+ifdef::backend-pdf[]
+= Client Configuration Guide: {productname} {productnumber}
+include::./branding/pdf/entities.adoc[]
+:toclevels: 3
+:doctype: book
+
+endif::[]
+
+
+* xref:client-config-overview.adoc[Client Configuration Guide]
+** xref:supported-features.adoc[Supported Clients and Features]
+// List of supported clients starting with SUSE, followed by others in alphabetical order
+*** xref:supported-features-sles.adoc[SLES Supported Features]
+*** xref:supported-features-es.adoc[SLES-ES Supported Features]
+ifeval::[{uyuni-content} == true]
+*** xref:supported-features-alibaba.adoc[Alibaba Cloud Linux Supported Features]
+endif::[]
+*** xref:supported-features-almalinux.adoc[AlmaLinux Supported Features]
+*** xref:supported-features-amazon.adoc[Amazon Linux Supported Features]
+*** xref:supported-features-centos.adoc[CentOS Supported Features]
+*** xref:supported-features-debian.adoc[Debian Supported Features]
+*** xref:supported-features-oracle.adoc[Oracle Supported Features]
+*** xref:supported-features-rh.adoc[Red Hat Supported Features]
+*** xref:supported-features-rocky.adoc[Rocky Linux Supported Features]
+*** xref:supported-features-ubuntu.adoc[Ubuntu Supported Features]
+// Key client concepts
+** xref:channels.adoc[Channels]
+*** xref:repositories.adoc[Repositories]
+*** xref:products.adoc[Products]
+** xref:gpg-keys.adoc[GPG Keys]
+** xref:activation-keys.adoc[Activation Keys]
+** xref:bootstrap-repository.adoc[Bootstrap Repository]
+// Contact Methods
+** xref:contact-methods-intro.adoc[Client Management Methods]
+*** xref:contact-methods-salt.adoc[Managing Salt Clients]
+**** xref:contact-methods-saltssh.adoc[Push via Salt SSH]
+**** xref:contact-methods-salt-cfgfile.adoc[Salt Minion Configuration File]
+*** xref:contact-methods-traditional.adoc[Managing Traditional Clients]
+**** xref:contact-methods-rhnsd.adoc[rhnsd]
+***** xref:contact-methods-osad.adoc[OSAD]
+**** xref:contact-methods-pushssh.adoc[Push via SSH]
+// Registration overviev, clients and different options
+** xref:registration-overview.adoc[Client Registration]
+// SLE Client Registration
+*** xref:registration-methods.adoc[Registration Methods]
+**** xref:registration-webui.adoc[Register with the Web UI]
+**** xref:registration-bootstrap.adoc[Register with Bootstrap]
+**** xref:registration-cli.adoc[Register on the Command Line]
+// SUSE Client Registration
+*** xref:registration-overview-suse.adoc[SUSE Client Registration]
+**** xref:clients-sle.adoc[SUSE Linux Enterprise Clients]
+**** xref:clients-sleses.adoc[Expanded Support Clients]
+// openSUSE Client Registration
+*** xref:registration-overview-opensuse.adoc[openSUSE Client Registration]
+**** xref:clients-opensuseleap.adoc[openSUSE Leap Clients]
+// Micro Clients
+**** xref:clients-slemicro.adoc[SLE Micro Clients]
+ifeval::[{uyuni-content} == true]
+**** xref:clients-microos.adoc[openSUSE MicroOS]
+endif::[]
+ifeval::[{uyuni-content} == true]
+// Alibaba Cloud Linux Client Registration
+*** xref:registration-overview-alibaba.adoc[Alibaba Cloud Linux Client Registration]
+**** xref:clients-alibaba.adoc[Alibaba Cloud Linux Clients]
+endif::[]
+// AlmaLinux Client Registration
+*** xref:registration-overview-almalinux.adoc[AlmaLinux Client Registration]
+**** xref:clients-almalinux.adoc[AlmaLinux Clients]
+// Amazon Linux Client Registration
+*** xref:registration-overview-amazon.adoc[Amazon Linux Client Registration]
+**** xref:clients-amazon.adoc[Amazon Linux Clients]
+// CentOS Client Registration
+*** xref:registration-overview-centos.adoc[CentOS Client Registration]
+**** xref:clients-centos.adoc[CentOS Clients]
+// Debian Client Registration
+*** xref:registration-overview-debian.adoc[Debian Client Registration]
+**** xref:clients-debian.adoc[Debian Clients]
+// Oracle Client Registration
+*** xref:registration-overview-oracle.adoc[Oracle Client Registration]
+**** xref:clients-oracle.adoc[Oracle Clients]
+// Red Hat Client Registration
+*** xref:registration-overview-redhat.adoc[Red Hat Client Registration]
+**** xref:clients-rh-cdn.adoc[Red Hat Clients - CDN]
+**** xref:clients-rh-rhui.adoc[Red Hat Clients - RHUI]
+// Rocky Linux Client Registration
+*** xref:registration-overview-rocky.adoc[Rocky Linux Client Registration]
+**** xref:clients-rocky.adoc[Rocky Linux Clients]
+// Ubuntu Client Registration
+*** xref:registration-overview-ubuntu.adoc[Ubuntu Client Registration]
+**** xref:clients-ubuntu.adoc[Ubuntu 20.04 Clients]
+**** xref:clients-ubuntu-old.adoc[Ubuntu 16.04 and 18.04 Clients]
+// Registering Clients on a Proxy
+*** xref:client-proxy.adoc[Client Registration to a Proxy]
+**** xref:client-proxy-webui.adoc[Register to a Proxy with the Web UI]
+**** xref:client-proxy-cli.adoc[Register to a Proxy with CLI]
+**** xref:client-proxy-script.adoc[Register to a Proxy with a Script]
+// Public Cloud Clients
+*** xref:clients-pubcloud.adoc[Public Cloud Clients]
+// Delete clients
+** xref:delete-clients.adoc[Delete Clients]
+// Automated Installation
+** xref:autoinst-intro.adoc[Operating System Installation]
+*** xref:autoinst-reinstall.adoc[Reinstall Registered Systems]
+*** xref:autoinst-pxeboot.adoc[Install via the Network]
+*** xref:autoinst-cdrom.adoc[Install via a CD-ROM or a USB Key]
+*** xref:autoinst-distributions.adoc[Autoinstallable Distributions]
+*** xref:autoinst-profiles.adoc[Autoinstallation Profiles]
+*** xref:autoinst-unattended.adoc[Unattended Provisioning]
+*** xref:autoinst-owngpgkey.adoc[Use Your Own GPG Key]
+//  Client Admin Tasks
+** xref:system-set-manager.adoc[System Set Manager]
+** xref:system-groups.adoc[System Groups]
+** xref:system-types.adoc[System Types]
+** xref:package-management.adoc[Package Management]
+** xref:patch-management.adoc[Patch Management]
+** xref:system-locking.adoc[System Locking]
+** xref:configuration-management.adoc[Configuration Management]
+** xref:power-management.adoc[Power Management]
+** xref:snapshots.adoc[Configuration Snapshots]
+** xref:custom-info.adoc[Custom System Information]
+// Upgrades
+** xref:client-upgrades.adoc[Client Upgrades]
+// ifeval::[{suma-content} == true]
+*** xref:client-upgrades-major.adoc[Client - Major Version Upgrade]
+*** xref:client-upgrades-lifecycle.adoc[Upgrade Using the Content Lifecycle Manager]
+*** xref:client-upgrades-product-migration.adoc[Product Migration]
+// endif::[]
+ifeval::[{uyuni-content} == true]
+*** xref:client-upgrades-uyuni.adoc[Upgrade Uyuni Clients]
+endif::[]
+// Virtualization
+** xref:virtualization.adoc[Virtualization]
+*** xref:virt-clusters.adoc[Clusters]
+*** xref:virt-xenkvm.adoc[Virtualization with Xen and KVM]
+// VHMs
+** xref:vhm.adoc[Virtual Host Managers]
+*** xref:vhm-aws.adoc[VHM and AWS]
+*** xref:vhm-azure.adoc[VHM and Azure]
+*** xref:vhm-caasp.adoc[VHM and CaaSP]
+*** xref:vhm-gce.adoc[VHM and GCE]
+*** xref:vhm-kubernetes.adoc[VHM and Kubernetes]
+*** xref:vhm-nutanix.adoc[VHM and Nutanix]
+*** xref:vhm-vmware.adoc[VHM and VMWare]
+*** xref:vhm-file.adoc[VHM with Other Hosts]
+// Troubleshooting
+** xref:tshoot-clients.adoc[Troubleshooting Clients]
+// Appendices
+
+ifdef::backend-pdf[]
+include::modules/ROOT/pages/common_gfdl1.2_i.adoc[leveloffset=+1]
+endif::[]

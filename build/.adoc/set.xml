@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<?asciidoc-toc?><?asciidoc-numbered?><set xmlns="http://docbook.org/ns/docbook" xmlns:d="http://docbook.org/ns/docbook" version="5.0" xml:lang="en">
+<info>
+<title>SUSE Manager Documentation</title>
+<date>[[introduction]]</date>
+<author>
+<personname>
+<firstname>== Documentation</firstname>
+</personname>
+</author>
+<authorinitials>=</authorinitials>
+</info>
+<book xml:id="id-introduction">
+<title>Introduction</title>
+<chapter xml:id="id-introduction-2">
+<title>Introduction</title>
+
+</chapter>
+</book>
+<book xml:id="installation">
+<title>Installation</title>
+<chapter xml:id="id-installation">
+<title>Installation</title>
+
+</chapter>
+</book>
+<book xml:id="client-configuration-guide">
+<title>Client Configuration Guide</title>
+<chapter xml:id="id-client-configuration-guide">
+<title>Client Configuration Guide</title>
+
+</chapter>
+</book>
+<book xml:id="upgrade-guide">
+<title>Upgrade Guide</title>
+<chapter xml:id="id-upgrade-guide">
+<title>Upgrade Guide</title>
+
+</chapter>
+</book>
+<book xml:id="reference-guide">
+<title>Reference Guide</title>
+<chapter xml:id="id-reference-guide">
+<title>Reference Guide</title>
+
+</chapter>
+</book>
+<book xml:id="administration-guide">
+<title>Administration Guide</title>
+<chapter xml:id="id-administration-guide">
+<title>Administration Guide</title>
+
+</chapter>
+</book>
+<book xml:id="salt-guide">
+<title>Salt Guide</title>
+<chapter xml:id="id-salt-guide">
+<title>Salt Guide</title>
+
+</chapter>
+</book>
+<book xml:id="retail-guide">
+<title>Retail Guide</title>
+<chapter xml:id="id-retail-guide">
+<title>Retail Guide</title>
+
+</chapter>
+</book>
+<book xml:id="large-deployments-guide">
+<title>Large Deployments Guide</title>
+<chapter xml:id="id-large-deployments-guide">
+<title>Large Deployments Guide</title>
+
+</chapter>
+</book>
+<book xml:id="quick-start-public-cloud">
+<title>Quick Start - Public Cloud</title>
+<chapter xml:id="id-quick-start-public-cloud">
+<title>Quick Start - Public Cloud</title>
+
+</chapter>
+</book>
+<book xml:id="quick-start-sap">
+<title>Quick Start - SAP</title>
+<chapter xml:id="id-quick-start-sap">
+<title>Quick Start - SAP</title>
+
+</chapter>
+</book>
+</set>
